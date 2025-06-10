@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Rolling Shutter",
+    "description": "Custom rolling shutters for commercial spaces.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1k1Xrvq37VJE_vhnJTpilGfxgCxLKJOHcdA&s"
+  },
+  {
+    "id": 2,
+    "title": "Steel Shutter",
+    "description": "Durable steel shutters for security.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGibE6M_YR3BQMnmKNaEgGW31FwAcIs5lS4A&s"
+  },
+  {
+    "id": 3,
+    "title": "Metal Gates",
+    "description": "Custom-designed metal gates for homes.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPk-uH-pf2teLXO1Z22hXdaY_OAyzOFr661A&s"
+  },
+  {
+    "id": 4,
+    "title": "Spiral Stairs",
+    "description": "Elegant spiral staircases for interiors.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQXFJxDKpzNNkiPyF0NkioivdKJftJYrKndQ&s"
+  },
+  {
+    "id": 5,
+    "title": "Metal Fencing",
+    "description": "Secure metal fencing solutions.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4ActuuHt5wIs9r4xjsE3_PExCEJw-Zppl3w&s"
+  },
+  {
+    "id": 6,
+    "title": "Anchor Fencing",
+    "description": "Anchor-style fencing for durability.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoWFagoh2SD64lnjmMxJAFlKVXFjN6May03w&s"
+  },
+  {
+    "id": 7,
+    "title": "Steel Wire Fencing",
+    "description": "Steel wire fencing for safety.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcE06eB7s7auegv8SPLZNr8W37R6dR8Q8mSQ&s"
+  },
+  {
+    "id": 53,
+    "title": "Modern Metal Pergola",
+    "description": "Sleek pergola for outdoor spaces.",
+    "image": "/d26.jpg"
+  }
+]

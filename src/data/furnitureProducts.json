@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "Metal Steel Bed",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvTC7oJx9JtElujf5V1-sXSkE0ICmAINeg9w&s"
+  },
+  {
+    "id": 2,
+    "title": "Metal Sofa",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtuLObpemeLLG3_MlSHi5hWo31Ok4-fE1jrQ&s"
+  },
+  {
+    "id": 3,
+    "title": "Metal Table",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYyqqBlzlYpdYzdX1L9KaRnQANRAPj-x7myA&s"
+  },
+  {
+    "id": 4,
+    "title": "Stainless Steel Table",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT1igtP-xCde_NC-UIzwne4-uAnbO-kGjiBw&s"
+  }
+]

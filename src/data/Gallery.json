@@ -1,0 +1,314 @@
+[
+  {
+    "id": 1,
+    "title": "Rolling Shutter",
+    "description": "Custom rolling shutters for commercial spaces.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1k1Xrvq37VJE_vhnJTpilGfxgCxLKJOHcdA&s"
+  },
+  {
+    "id": 2,
+    "title": "Steel Shutter",
+    "description": "Durable steel shutters for security.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGibE6M_YR3BQMnmKNaEgGW31FwAcIs5lS4A&s"
+  },
+  {
+    "id": 3,
+    "title": "Metal Gates",
+    "description": "Custom-designed metal gates for homes.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPk-uH-pf2teLXO1Z22hXdaY_OAyzOFr661A&s"
+  },
+  {
+    "id": 4,
+    "title": "Spiral Stairs",
+    "description": "Elegant spiral staircases for interiors.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQXFJxDKpzNNkiPyF0NkioivdKJftJYrKndQ&s"
+  },
+  {
+    "id": 5,
+    "title": "Metal Fencing",
+    "description": "Secure metal fencing solutions.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4ActuuHt5wIs9r4xjsE3_PExCEJw-Zppl3w&s"
+  },
+  {
+    "id": 6,
+    "title": "Anchor Fencing",
+    "description": "Anchor-style fencing for durability.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoWFagoh2SD64lnjmMxJAFlKVXFjN6May03w&s"
+  },
+  {
+    "id": 7,
+    "title": "Steel Wire Fencing",
+    "description": "Steel wire fencing for safety.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcE06eB7s7auegv8SPLZNr8W37R6dR8Q8mSQ&s"
+  },
+
+  {
+    "id": 8,
+    "title": "Metal Steel Bed",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvTC7oJx9JtElujf5V1-sXSkE0ICmAINeg9w&s"
+  },
+  {
+    "id": 9,
+    "title": "Metal Sofa",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtuLObpemeLLG3_MlSHi5hWo31Ok4-fE1jrQ&s"
+  },
+  {
+    "id": 10,
+    "title": "Metal Table",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYyqqBlzlYpdYzdX1L9KaRnQANRAPj-x7myA&s"
+  },
+  {
+    "id": 11,
+    "title": "Stainless Steel Table",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT1igtP-xCde_NC-UIzwne4-uAnbO-kGjiBw&s"
+  },
+
+
+  {
+    "id": 12,
+    "title": "Shutter",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLbLIlFjIwdM2LTrMoc5MwVZD4mtN7X8YK8A&s"
+  },
+  {
+    "id": 13,
+    "title": "Metal Gates",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPk-uH-pf2teLXO1Z22hXdaY_OAyzOFr661A&s"
+  },
+  {
+    "id": 14,
+    "title": "Stainless Steel Gates",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8cKNva1T9z8lpeKJt3EjLLrVF-oPVCqeuQ&s"
+  },
+  {
+    "id": 15,
+    "title": "Railing & Grills",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYh-xZjqv8aALQKdAzrGgVkOfd3FhN_rdYrg&s"
+  },
+
+  {
+    "id": 16,
+    "title": "Metal Furniture",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6hEXmdSGhshMU5xKdTEmNh8eAIFM0w0FgMw&s"
+  },
+  {
+    "id": 17,
+    "title": "Sheds",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM9c3JKJD7XgM36ttLSpNwfADdDlbSX-YYWA&s"
+  },
+
+  {
+    "id": 18,
+    "title": "Garden Pergola",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5_vP-921YAibDAS8-DPqtHxnnoiY2S4LpEw&s"
+  },
+  {
+    "id": 28,
+    "title": "Metal Grill Door with Glass",
+    "description": "Secure door with glass panel and metal grill.",
+    "image": "/d1.jpg"
+  },
+  {
+    "id": 29,
+    "title": "Blue Metal Door",
+    "description": "Simple blue metal door for residential use.",
+    "image": "/d2.jpg"
+  },
+  {
+    "id": 30,
+    "title": "Red Frame Metal Door",
+    "description": "Metal door with a red frame for added style.",
+    "image": "/d3.jpg"
+  },
+  {
+    "id": 31,
+    "title": "Decorative Metal Gate with Swirls",
+    "description": "Gate with swirl patterns for aesthetic appeal.",
+    "image": "/d4.jpg"
+  },
+  {
+    "id": 32,
+    "title": "Stainless Steel Gate with Panels",
+    "description": "Modern stainless steel gate with panel design.",
+    "image": "/d5.jpg"
+  },
+  {
+    "id": 33,
+    "title": "Glass and Metal Door",
+    "description": "Sleek door combining glass and metal.",
+    "image": "/d6.jpg"
+  },
+  {
+    "id": 34,
+    "title": "Black Metal Door with Grill",
+    "description": "Black metal door with a protective grill.",
+    "image": "/d7.jpg"
+  },
+  {
+    "id": 35,
+    "title": "Industrial Metal Gate",
+    "description": "Heavy-duty gate for industrial settings.",
+    "image": "/d8.jpg"
+  },
+  {
+    "id": 36,
+    "title": "Wooden Frame Metal Gate",
+    "description": "Metal gate with a wooden frame for contrast.",
+    "image": "/d9.jpg"
+  },
+  {
+    "id": 37,
+    "title": "Metal Grill Door with Bars",
+    "description": "Door with vertical bars for security.",
+    "image": "/d10.jpg"
+  },
+  {
+    "id": 38,
+    "title": "Curved Metal Grill Door",
+    "description": "Door with curved grill design for style.",
+    "image": "/d11.jpg"
+  },
+  {
+    "id": 39,
+    "title": "Transparent Metal Gate",
+    "description": "See-through metal gate for visibility.",
+    "image": "/d12.jpg"
+  },
+  {
+    "id": 40,
+    "title": "Red and Black Metal Door",
+    "description": "Bold red and black metal door.",
+    "image": "/d13.jpg"
+  },
+  {
+    "id": 41,
+    "title": "Wooden Panel Metal Gate",
+    "description": "Metal gate with wooden panel inserts.",
+    "image": "/d14.jpg"
+  },
+  {
+    "id": 42,
+    "title": "Black Metal Gate with Bars",
+    "description": "Simple black metal gate with vertical bars.",
+    "image": "/d15.jpg"
+  },
+  {
+    "id": 43,
+    "title": "Metal Door with Glass Insert",
+    "description": "Metal door with a glass insert for light.",
+    "image": "/d16.jpg"
+  },
+  {
+    "id": 44,
+    "title": "Industrial Metal Shed Structure",
+    "description": "Framework for an industrial metal shed.",
+    "image": "/d17.jpg"
+  },
+  {
+    "id": 45,
+    "title": "Metal Gate with Wooden Surround",
+    "description": "Metal gate framed with wooden elements.",
+    "image": "/d18.jpg"
+  },
+  {
+    "id": 46,
+    "title": "Metal Window Grill with Bars",
+    "description": "Protective metal grill for windows.",
+    "image": "/d19.jpg"
+  },
+  {
+    "id": 47,
+    "title": "White Metal Door with Grill",
+    "description": "White metal door with a grill design.",
+    "image": "/d20.jpg"
+  },
+  {
+    "id": 48,
+    "title": "Patterned Stainless Steel Door",
+    "description": "Stainless steel door with geometric patterns.",
+    "image": "/d21.jpg"
+  },
+  {
+    "id": 49,
+    "title": "Metal Grill Gate with Lattice",
+    "description": "Gate with a lattice grill design.",
+    "image": "/d22.jpg"
+  },
+  {
+    "id": 50,
+    "title": "Metal Grill with Diamond Pattern",
+    "description": "Grill with a diamond pattern for security.",
+    "image": "/d23.jpg"
+  },
+  {
+    "id": 51,
+    "title": "Metal Staircase Railing",
+    "description": "Sturdy railing for staircases.",
+    "image": "/d24.jpg"
+  },
+  {
+    "id": 52,
+    "title": "Metal Gate with Vertical Bars",
+    "description": "Gate with vertical bar design.",
+    "image": "/d25.jpg"
+  },
+  {
+    "id": 53,
+    "title": "Modern Metal Pergola",
+    "description": "Sleek pergola for outdoor spaces.",
+    "image": "/d26.jpg"
+  },
+  {
+    "id": 54,
+    "title": "Decorative Metal Door with Circles",
+    "description": "Door with circular decorative patterns.",
+    "image": "/d27.jpg"
+  },
+  {
+    "id": 55,
+    "title": "Metal Balcony Railing",
+    "description": "Durable railing for balconies.",
+    "image": "/d28.jpg"
+  },
+  {
+    "id": 56,
+    "title": "Metal Canopy Frame",
+    "description": "Framework for a metal canopy.",
+    "image": "/d29.jpg"
+  },
+  {
+    "id": 57,
+    "title": "Metal Balcony Grill",
+    "description": "Protective grill for balconies.",
+    "image": "/d30.jpg"
+  },
+  {
+    "id": 58,
+    "title": "Metal Railing with Bars",
+    "description": "Simple railing with vertical bars.",
+    "image": "/d31.jpg"
+  },
+  {
+    "id": 59,
+    "title": "Metal Grill Gate with Mesh",
+    "description": "Gate with a mesh grill design.",
+    "image": "/d32.jpg"
+  },
+  {
+    "id": 60,
+    "title": "Metal Railing for Terrace",
+    "description": "Railing for terrace safety.",
+    "image": "/d33.jpg"
+  },
+  {
+    "id": 61,
+    "title": "Metal Table Frame",
+    "description": "Sturdy frame for a metal table.",
+    "image": "/d34.jpg"
+  },
+  {
+    "id": 62,
+    "title": "Metal Door with Circular Grill",
+    "description": "Door with a circular grill pattern.",
+    "image": "/d35.jpg"
+  }
+]
