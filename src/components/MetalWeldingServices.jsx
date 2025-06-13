@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Helmet } from 'react-helmet-async';
-import { motion } from 'framer-motion';
 import servicesData from '../data/metalWeldingServices.json';
 import BookingModal from './BookingModal';
 
@@ -28,24 +27,18 @@ const MetalWeldingServices = () => {
         <link rel="canonical" href="https://acrepairing.in/metal-welding-services" />
       </Helmet>
 
-      <section className="py-16 bg-gray-100 dark:bg-gray-900">
+      <section className="py-6 bg-gray-100 dark:bg-gray-900">
         <div className="container mx-auto px-4">
-          <motion.h2
-            initial={{ opacity: 0, y: -20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            className="text-3xl font-bold text-center mb-12 text-gray-800 dark:text-white"
+          <h2
+            className="text-3xl font-bold text-center mb-4 text-gray-800 dark:text-white"
           >
             Metal Welding Services
-          </motion.h2>
+          </h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
             {servicesData.map((service, index) => (
-              <motion.div
+              <div
                 key={service.id}
-                initial={{ y: 50, opacity: 0 }}
-                whileInView={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.5, delay: index * 0.2 }}
                 className="bg-white dark:bg-gray-800 p-4 rounded-2xl shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300"
               >
                 <img
@@ -67,7 +60,7 @@ const MetalWeldingServices = () => {
                 >
                   Book This Design
                 </button>
-              </motion.div>
+              </div>
             ))}
           </div>
 

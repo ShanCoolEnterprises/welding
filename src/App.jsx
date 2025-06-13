@@ -287,10 +287,10 @@ function AppContent() {
               </Helmet>
               <Gallery />
               <AllDesignLink />
-              <ServiceHighlights />
               <OurServices />
               <TrustedWelding />
               <MetalWeldingServices />
+              <ServiceHighlights />
               <FurnitureProducts />
               <About />
               <Footer />

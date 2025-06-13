@@ -1,10 +1,8 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
-import { motion } from 'framer-motion';
 import weldingData from '../data/Gallery.json';
 import BookingModal from './BookingModal';
-
 function AllGallery() {
   const [designs, setDesigns] = useState([]);
   const [bookingModalOpen, setBookingModalOpen] = useState(false);
@@ -135,23 +133,21 @@ function AllGallery() {
             Home
           </Link>
 
-          <motion.h2
-            className="text-3xl font-bold text-center mb-8"
+          <h2
+            className="text-3xl font-bold text-center mb-12"
             initial={{ opacity: 0, y: -30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
             Welding Design Gallery
-          </motion.h2>
+          </h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {currentDesigns.map((item) => (
-              <motion.div
+              <div
                 key={item.id}
                 className="bg-white rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300"
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.4 }}
+      
               >
                 <img
                   src={item.image}
@@ -169,7 +165,7 @@ function AllGallery() {
                     Book This Design
                   </button>
                 </div>
-              </motion.div>
+              </div>
             ))}
           </div>
 

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Helmet } from 'react-helmet-async';
-import { motion } from 'framer-motion';
 import furnitureData from '../data/furnitureProducts.json';
 import BookingModal from './BookingModal';
 
@@ -28,25 +27,20 @@ const FurnitureProducts = () => {
         <link rel="canonical" href="https://acrepairing.in/furniture-products" />
       </Helmet>
 
-      <section className="py-16 bg-white dark:bg-gray-800">
+      <section className="py-6 bg-white dark:bg-gray-800">
         <div className="container mx-auto px-4">
-          <motion.h2
-            className="text-3xl font-bold text-center mb-12 text-gray-800 dark:text-white"
-            initial={{ opacity: 0, y: -30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
+          <h2
+            className="text-3xl font-bold text-center mb-4 text-gray-800 dark:text-white"
           >
             Metal & Steel Furniture Products
-          </motion.h2>
+          </h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
             {furnitureData.map((product, index) => (
-              <motion.div
+              <div
                 key={product.id}
                 className="bg-gray-100 dark:bg-gray-700 p-4 rounded-2xl shadow hover:shadow-lg hover:scale-105 transition-all duration-300"
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.3, delay: index * 0.1 }}
+
               >
                 <img
                   src={product.image}
@@ -64,7 +58,7 @@ const FurnitureProducts = () => {
                 >
                   Book This Design
                 </button>
-              </motion.div>
+              </div>
             ))}
           </div>
         </div>

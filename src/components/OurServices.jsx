@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Helmet } from 'react-helmet-async';
-import { motion } from 'framer-motion';
 import servicesData from '../data/services.json';
 import BookingModal from './BookingModal';
 
@@ -28,20 +27,17 @@ const OurServices = () => {
         <link rel="canonical" href="https://acrepairing.in/services" />
       </Helmet>
 
-      <section className="py-16 bg-gray-100 dark:bg-gray-900">
+      <section className="py-6 bg-gray-100 dark:bg-gray-900">
         <div className="container mx-auto px-4">
-          <motion.h2
-            initial={{ opacity: 0, y: -20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            className="text-3xl font-bold text-center mb-12 text-gray-800 dark:text-white"
+          <h2
+            className="text-3xl font-bold text-center mb-2 text-gray-800 dark:text-white"
           >
             Our Services
-          </motion.h2>
+          </h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
             {servicesData.map((service, index) => (
-              <motion.div
+              <div
                 key={service.id}
                 initial={{ opacity: 0, y: 40 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -63,7 +59,7 @@ const OurServices = () => {
                 >
                   Book This Design
                 </button>
-              </motion.div>
+              </div>
             ))}
           </div>
 

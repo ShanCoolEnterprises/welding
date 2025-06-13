@@ -10,7 +10,7 @@ function About() {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-r from-gray-900 to-gray-700 text-white">
+    <section className="py-8 bg-gradient-to-r from-gray-900 to-gray-700 text-white">
       <Helmet>
         <title>MR Steel Fabrication</title>
         <meta name="description" content="MR Steel Fabrication in Greater Noida West specializes in SS & MS Gates, Balcony Covering, Shutters, Grills, and Aluminium Work. Trusted for quality fabrication work." />
