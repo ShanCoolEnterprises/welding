@@ -53,7 +53,7 @@ const Navbar = () => {
 
             <a
               href="tel:+919355626174"
-              className="flex items-center gap-2 bg-yellow-400 hover:bg-yellow-300 text-black font-bold px-4 py-2 rounded-full transition shadow"
+              className="flex items-center gap-2 bg-green-600 hover:bg-blue-300 text-white font-bold px-4 py-2 rounded-full transition shadow"
             >
               <FaPhoneAlt className="text-sm" /> Call Now
             </a>
@@ -107,7 +107,7 @@ const Navbar = () => {
               ))}
               <a
                 href="tel:+919355626174"
-                className="flex items-center justify-center gap-2 py-4 bg-yellow-400 text-black font-bold"
+                className="flex items-center justify-center gap-2 py-4 bg-green-600 text-white font-bold"
               >
                 <FaPhoneAlt className="text-sm" /> Call Now
               </a>

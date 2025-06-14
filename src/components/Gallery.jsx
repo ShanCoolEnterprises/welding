@@ -1,13 +1,12 @@
-// Gallery.jsx 
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Autoplay } from 'swiper/modules';
+import { Navigation, Autoplay, EffectFade } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import weldingData from '../data/Gallery.json';
+import 'swiper/css/effect-fade';
 import BookingModal from './BookingModal';
-import './Gallery.css'; // Custom CSS for flip effect
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 function Gallery() {
   const [designs, setDesigns] = useState([]);
@@ -15,7 +14,40 @@ function Gallery() {
   const [selectedDesign, setSelectedDesign] = useState(null);
 
   useEffect(() => {
-    setDesigns(weldingData);
+    const topDesigns = [
+      {
+        image: 'https://thumbs.dreamstime.com/b/magnificent-wrought-iron-gates-ornamental-forging-forged-elements-close-up-magnificent-wrought-iron-gates-ornamental-forging-145098503.jpg?w=768',
+        title: 'Modern Steel Gate',
+        description: 'Sleek and stylish modern steel gate design for urban homes.',
+      },
+      {
+        image: 'https://thumbs.dreamstime.com/b/interior-warehouse-closed-gates-modern-realistic-illustration-empty-storage-room-factory-shop-commercial-garage-315156600.jpg?w=992',
+        title: 'Fancy Balcony Grill',
+        description: 'Decorative balcony grill with intricate design and strong build.',
+      },
+      {
+        image: 'https://cdn.pixabay.com/photo/2019/05/10/20/08/fence-4194398_1280.jpg',
+        title: 'Premium Main Gate',
+        description: 'Robust and elegant main gate design made for durability and charm.',
+      },
+      {
+        image: 'https://thumbs.dreamstime.com/b/modern-light-forged-gates-19378935.jpg?w=768',
+        title: 'SS Stair Railing',
+        description: 'Stylish stainless steel railing for stairs and balconies.',
+      },
+      {
+        image: 'https://thumbs.dreamstime.com/b/empty-hallway-modern-building-closed-doors-steel-lift-gates-realistic-illustration-315498522.jpg?w=992',
+        title: 'Designer Entry Gate',
+        description: 'Eye-catching designer gate perfect for bungalows and villas.',
+      },
+    ];
+
+    setDesigns(
+      topDesigns.map((item) => ({
+        ...item,
+        onClick: () => openBookingModal(item),
+      }))
+    );
   }, []);
 
   const openBookingModal = (design) => {
@@ -29,59 +61,60 @@ function Gallery() {
   };
 
   return (
-    <section className={`py-7 px-2 bg-gray-100 transition-opacity duration-300 ${bookingModalOpen ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}>
+    <section className={`relative w-full overflow-hidden z-0 transition-opacity duration-300 ${bookingModalOpen ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}>
       <Helmet>
-        <title>Welding Design Gallery | Mr Steel Fabrication</title>
-        <meta
-          name="description"
-          content="Discover premium metal and steel welding designs by Mr Steel Fabrication."
-        />
+        <title>Top 5 Welding Designs | Mr Steel Fabrication</title>
+        <meta name="description" content="Explore the top 5 trending steel welding designs with detailed descriptions by Mr Steel Fabrication." />
         <link rel="canonical" href="https://acrepairing.in/gallery" />
       </Helmet>
 
-      <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-10"></h2>
-        <Swiper
-          modules={[Navigation, Autoplay]}
-          navigation
-          spaceBetween={20}
-          slidesPerView={1}
-          autoplay={{ delay: 3000 }}
-          breakpoints={{
-            640: { slidesPerView: 2 },
-            768: { slidesPerView: 3 },
-            1024: { slidesPerView: 4 },
-          }}
-        >
-          {designs.map((item, index) => (
-            <SwiperSlide key={item.id}>
-              <div className="flip-card">
-                <div className="flip-inner">
-                  <div className="flip-front">
-                    <img
-                      src={item.image}
-                      alt={`Welding Design - ${item.title}`}
-                      className="w-full h-52 object-cover rounded-xl shadow-md"
-                    />
-                  </div>
-                  <div className="flip-back bg-gradient-to-r from-blue-600 to-indigo-700 text-white flex flex-col items-center justify-center p-4 rounded-xl">
-                    <h3 className="text-lg font-bold mb-3">{item.title}</h3>
-                    <button
-                      onClick={() => openBookingModal(item)}
-                      className="px-4 py-2 bg-white text-blue-700 rounded hover:bg-gray-100"
-                    >
-                      Book This Design
-                    </button>
-                  </div>
+      <Swiper
+        modules={[Autoplay, Navigation, EffectFade]}
+        navigation={{
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        }}
+        effect="fade"
+        loop
+        autoplay={{ delay: 4000 }}
+        className="w-full h-[300px] sm:h-[400px] md:h-[500px]"
+      >
+        {designs.map((item, index) => (
+          <SwiperSlide key={index}>
+            <div className="relative w-full h-full">
+              <img
+                src={item.image}
+                alt={item.title}
+                className="w-full h-full object-cover object-center"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-black/10 flex items-center justify-center px-4">
+                <div className="text-center max-w-lg text-white z-10">
+                  <h3 className="text-2xl sm:text-3xl font-bold drop-shadow-xl mb-2">{item.title}</h3>
+                  <p className="text-sm sm:text-base font-light drop-shadow-md mb-4">
+                    {item.description}
+                  </p>
+                  <button
+                    onClick={item.onClick}
+                    className="mt-2 inline-block bg-white text-blue-700 px-6 py-2 rounded-full shadow-lg text-sm transition transform hover:scale-105"
+                  >
+                    Book This Design
+                  </button>
                 </div>
               </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
-      </div>
+            </div>
+          </SwiperSlide>
+        ))}
+
+        <div className="swiper-button-prev absolute left-2 top-1/2 -translate-y-1/2 z-20 bg-black/30 hover:bg-black/60 p-2 rounded-full transition-all duration-300 ease-in-out">
+          <ChevronLeft className="w-5 h-5 text-white" />
+        </div>
+        <div className="swiper-button-next absolute right-2 top-1/2 -translate-y-1/2 z-20 bg-black/30 hover:bg-black/60 p-2 rounded-full transition-all duration-300 ease-in-out">
+          <ChevronRight className="w-5 h-5 text-white" />
+        </div>
+      </Swiper>
 
       {bookingModalOpen && selectedDesign && (
-        <div className="fixed inset-0 z-[100] bg-black bg-opacity-50 flex items-center justify-center">
+        <div className="fixed inset-0 z-[100] bg-black/60 backdrop-blur-sm flex items-end sm:items-center justify-center transition-transform">
           <BookingModal
             isOpen={bookingModalOpen}
             onClose={closeBookingModal}

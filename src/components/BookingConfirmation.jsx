@@ -1,6 +1,7 @@
 // BookingConfirmation.js
 import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
 const BookingConfirmation = () => {
   const { state } = useLocation();
@@ -12,7 +13,7 @@ const BookingConfirmation = () => {
   }
 
   return (
-    <div
+    <motion.div
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
@@ -40,7 +41,7 @@ const BookingConfirmation = () => {
       >
         OK
       </button>
-    </div>
+    </motion.div>
   );
 };
 
